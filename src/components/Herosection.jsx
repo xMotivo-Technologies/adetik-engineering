@@ -6,7 +6,7 @@ const Herosection = () => {
     <section className="grid min-h-[690px] grid-cols-1 items-end overflow-hidden bg-gradient-to-br from-customGreen/40 via-customYellow/10 to-customBlue px-6 pt-40 md:grid-cols-2 md:px-16 lg:px-32">
       <Reveal x={-40} y={0} className="z-10 self-center pb-10 md:pb-16">
 
-        <h1 className="text-4xl font-medium leading-[0.92] tracking-[-0.065em] text-black lg:text-5xl">
+        <h1 className="text-5xl font-medium leading-[0.92] tracking-[-0.065em] text-black lg:text-6xl">
           Driving Quality  <br />
            Engineering Across  <br />
           <span className="text-customBlue">Nigeria</span>

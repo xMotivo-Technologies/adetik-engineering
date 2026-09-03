@@ -12,6 +12,7 @@ const Navbar = () => {
     { name: "Services", link: "/services" },
     { name: "Projects", link: "/projects" },
     { name: "Equipment", link: "/equipment" },
+    { name: "Solar Energy", link: "/solar" },
   ];
 
   return (
@@ -42,7 +43,7 @@ const Navbar = () => {
             >
               <Link
                 to={item.link}
-                className="relative text-[10px] font-bold uppercase tracking-[0.1em] text-black transition-colors hover:text-customBlue after:absolute after:-bottom-2 after:left-0 after:h-0.5 after:w-0 after:bg-customYellow after:transition-all hover:after:w-full"
+                className="relative text-[11px] font-bold uppercase tracking-[0.1em] text-black transition-colors hover:text-customBlue after:absolute after:-bottom-2 after:left-0 after:h-0.5 after:w-0 after:bg-customYellow after:transition-all hover:after:w-full"
               >
                 {item.name}
               </Link>
