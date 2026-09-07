@@ -44,25 +44,12 @@ const Footer = () => {
 
             <div className="mt-7 flex gap-3">
               <a
-                href="#facebook"
-                aria-label="Facebook"
-                className="grid h-10 w-10 place-items-center border border-white/30 text-[11px] font-bold transition hover:border-customYellow hover:bg-customYellow hover:text-black"
-              >
-                <FaFacebook />
-              </a>
-              <a
-                href="#instagram"
+                target="_blank"
+                href="https://www.instagram.com/adetikltd/"
                 aria-label="Instagram"
                 className="grid h-10 w-10 place-items-center border border-white/30 text-[11px] font-bold transition hover:border-customYellow hover:bg-customYellow hover:text-black"
               >
                 <BsInstagram />
-              </a>
-              <a
-                href="#linkedin"
-                aria-label="LinkedIn"
-                className="grid h-10 w-10 place-items-center border border-white/30 text-[11px] font-bold transition hover:border-customYellow hover:bg-customYellow hover:text-black"
-              >
-                <FaLinkedin />
               </a>
             </div>
           </div>
@@ -119,12 +106,20 @@ const Footer = () => {
                 <p className="mb-1 text-[11px] font-bold tracking-[0.1em] text-white">
                   EMAIL
                 </p>
-                <a
-                  href="mailto:info@yourcompany.com"
-                  className="transition hover:text-customYellow"
-                >
-                  info@adetikltd.com
-                </a>
+                <div className="flex flex-col">
+                  <a
+                    href="mailto:adetikltd@gmail.com"
+                    className="transition hover:text-customYellow"
+                  >
+                    adetikltd@gmail.com
+                  </a>
+                  <a
+                    href="mailto:adetikoffice@gmail.com"
+                    className="transition hover:text-customYellow"
+                  >
+                    adetikoffice@gmail.com
+                  </a>
+                </div>
               </div>
 
               <div>
@@ -132,10 +127,10 @@ const Footer = () => {
                   PHONE
                 </p>
                 <a
-                  href="https://wa.me/2349023942560"
+                  href="https://wa.me/2348149287397"
                   className="transition hover:text-customYellow"
                 >
-                  +234 902 394 2560
+                  +234 902 394 2560 , +234 814 928 7397
                 </a>
               </div>
 
@@ -143,7 +138,18 @@ const Footer = () => {
                 <p className="mb-1 text-[11px] font-bold tracking-[0.1em] text-white">
                   LOCATION
                 </p>
-                <p>1 Akure Street, Area 10, Garki, Abuja-FCT Nigeria.</p>
+                <div>
+                  <p className="text-customYellow font-bold">Office Address</p>
+                  <p>21 Iraye Road Epe, Lagos State</p>
+                  <p>1 Akure Street, Area 10, Garki, Abuja-FCT Nigeria.</p>
+                </div>
+
+                <div>
+                  <p className="text-customYellow font-bold">
+                    Warehouse Address
+                  </p>
+                  <p>No. 114 Ikorodu Road, Igbobi, Fadeyi, Lagos</p>
+                </div>
               </div>
             </div>
           </div>
@@ -151,12 +157,15 @@ const Footer = () => {
 
         <div className="flex flex-col gap-4 py-7 text-[11px] text-white/70 sm:flex-row sm:items-center sm:justify-between">
           <p>
-            © {new Date().getFullYear()} Adetik 101 MultiNational Links
-            Limited. All rights reserved.
+            © {new Date().getFullYear()} Adetik 101 MultiNational Links Limited.
+            All rights reserved.
           </p>
 
           <div className="flex gap-5">
-            <Link to="/privacy-policy" className="transition hover:text-customYellow">
+            <Link
+              to="/privacy-policy"
+              className="transition hover:text-customYellow"
+            >
               Privacy Policy
             </Link>
             <Link to="/terms" className="transition hover:text-customYellow">

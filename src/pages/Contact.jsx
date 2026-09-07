@@ -13,7 +13,6 @@ const Contact = () => {
 
   return (
     <main className="overflow-hidden bg-white ">
-
       {/* Form and details */}
       <section className="px-6 py-20 md:px-16 lg:px-32 lg:py-28">
         <div className="mx-auto grid max-w-[1440px] overflow-hidden border border-black/10 lg:grid-cols-[0.85fr_1.15fr]">
@@ -37,12 +36,22 @@ const Contact = () => {
                 <p className="text-xs font-extrabold tracking-[0.14em] text-customYellow">
                   EMAIL
                 </p>
+              <div>
+                <div className="flex flex-col">
                 <a
-                  href="mailto:info@adetikltd.com"
-                  className="mt-2 block text-base font-bold transition hover:text-customYellow"
+                  href="mailto:adetikltd@gmail.com"
+                  className="transition hover:text-customYellow"
                 >
-                  info@adetikltd.com
+                  adetikltd@gmail.com
                 </a>
+                <a
+                  href="mailto:adetikoffice@gmail.com"
+                  className="transition hover:text-customYellow"
+                >
+                  adetikoffice@gmail.com
+                </a>
+                </div>
+              </div>
               </div>
 
               <div>
@@ -50,20 +59,29 @@ const Contact = () => {
                   PHONE
                 </p>
                 <a
-                  href="https://wa.me/2349023942560"
+                  href="https://wa.me/2348149287397"
                   className="mt-2 block text-base font-bold transition hover:text-customYellow"
                 >
-                  +234 902 394 2560
+                  +234 902 394 2560, +234 814 928 7397
                 </a>
               </div>
 
               <div>
-                <p className="text-xs font-extrabold tracking-[0.14em] text-customYellow">
-                  OFFICE ADDRESS
+                <p className="mb-1 text-[11px] font-bold tracking-[0.1em] text-white">
+                  LOCATION
                 </p>
-                <p className="mt-2 max-w-xs text-sm leading-relaxed text-white/85">
-                  1 Akure Street, Area 10, Garki, Abuja-FCT Nigeria.
-                </p>
+                <div>
+                  <p className="text-customYellow font-bold">Office Address</p>
+                  <p>21 Iraye Road Epe, Lagos State</p>
+                  <p>1 Akure Street, Area 10, Garki, Abuja-FCT Nigeria.</p>
+                </div>
+
+                <div>
+                  <p className="text-customYellow font-bold">
+                    Warehouse Address
+                  </p>
+                  <p>No. 114 Ikorodu Road, Igbobi, Fadeyi, Lagos</p>
+                </div>
               </div>
 
               <div>

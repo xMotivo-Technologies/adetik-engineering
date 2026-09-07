@@ -14,7 +14,7 @@ const About = () => {
             <div className="absolute -left-4 -top-4 h-24 w-24 bg-customYellow sm:h-32 sm:w-32" />
 
             <img
-              src="/images/building.png"
+              src="/images/building-home.jpg"
               alt="Engineering team at work"
               className="relative z-10 h-[400px] w-full object-cover sm:h-[520px]"
             />
